@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nilav</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img class="logo" src="Images/logo.png" alt="logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+          </li>
+          <a href="#" id="close"><i class="fa fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a  href="cart.html" 
+          ><i class="fa fa-shopping-cart" aria-hidden="true"></i >  </a>
+        <i id="bar" class="fa fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#Cart</h2>
+      <p>Add your coupon code & Save upto 70%</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>REMOVE</td>
+            <td>PRODUCT</td>
+            <td>QUANTITY</td>
+            <td>SUBTOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+             <i class="fa fa-trash cart-remove" aria-hidden="true"></i>
+            </td>
+            <td><img src="Images/Product/p1/p1-01.png" alt="img" />
+            <p>Casual Shirt For Men</p>
+            <span>Rs.1500.00</span>
+            </td>
+            <td><input type="number" value="1" class="cart-quantity"/></td>
+            <td>Rs.1500.00</td>
+          </tr>
+           <tr>
+            <td>
+              <i class="fa fa-trash cart-remove" aria-hidden="true"></i>
+            </td>
+            <td ><img src="Images/Product/n1/n1-01.png" alt="n1-01" />
+            <p>Short Sleeve Blouse For Women</p>
+            <span>Rs.2500.00</span>
+           </td>
+            <td><input type="number" value="1" class="cart-quantity"/></td>
+            <td>Rs.2500.00</td>
+          </tr>
+          <tr>
+            <td>
+            <i class="fa fa-trash cart-remove" aria-hidden="true"></i>
+            </td>
+            <td><img src="Images/Product/n2/n2-02.png" alt="n2-02" />
+            <p>Net & Valantino Frock For Children</p> 
+            <span>Rs.4500.00</span></td>
+            <td><input type="number" value="1" class="product-quantity" /></td>
+            <td>Rs.4500.00</td>
+          </tr>  
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>Rs.8500.00</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>Rs.8500.00</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="Images/logo.png" class="logo" alt="logo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> No.65,Main Stree, Trincomalee. Sri Lanka
+        </p>
+        <p><strong>Phone:</strong> 026 2226 154</p>
+        <p><strong>Hours:</strong> 08:00 AM - 09:00 PM , Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icons">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="Images/pay/app.jpg" alt="app" />
+          <img src="Images/pay/play.jpg" alt="play" />
+        </div>
+        <p>Secure Payment Gateways</p>
+        <img src="Images/pay/pay.png" alt="pay" />
+      </div>
+      <div class="copyright">
+        <p>&copy 2024 Nilav.com All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
